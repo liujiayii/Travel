@@ -32,7 +32,7 @@
     },
     methods: {
       getHomeInfo() {
-        axios.get('/api/index.json?city=' + this.$store.state.city)
+        axios.get('/mock/index.json?city=' + this.$store.state.city)
           .then(this.getHomeInfoSuc)
       },
       getHomeInfoSuc(res) {

@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production' ? '/Travel/docs/mock/' : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? './' : '/',
   outputDir: './docs',
   assetsDir: undefined,
   runtimeCompiler: undefined,
